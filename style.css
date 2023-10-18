@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgb(49, 197, 230);
+}
+#root {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    padding: 32px;
+    flex-wrap:wrap;
+}
+
+.card{
+    display: flex;
+    width: 30%;
+    height: 100%;
+    background-color: blue;
+    padding: 16px;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+img{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
